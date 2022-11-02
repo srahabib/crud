@@ -1,0 +1,17 @@
+<% for(var i=0; i<candys.length; i++) { %>
+  <tr>
+    <td><%= i+1%></td>
+    <td><%= candys[i].name %></td>
+    <td>5/4/2002</td>
+    <td><%= candys[i].quantity %></td>
+    <td>
+      <a href="/update-candy?id=<%= candys[i]._id%>">
+        <span><i class="fas fa-pencil-alt"></i></span>
+      </a>
+      <a href="#">
+        <span><i class="fas fa-times"></i></span>
+      </a>
+    </td>
+  </tr>
+  <%}%>
+</candys.length;>
